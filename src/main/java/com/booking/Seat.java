@@ -1,3 +1,5 @@
+package com.booking;
+
 public class Seat {
 
   private String seatNumber;

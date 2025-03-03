@@ -2,7 +2,7 @@
     * This project requires Java 17 to be installed on your system. Please make sure you have Java 17 installed before proceeding.
 
 ## Important Instruction
-    * Please note that a Scanner object has already been instantiated within the Start class for input purposes. Therefore, please DO NOT CREATE a new object for input; you can utilize the existing Scanner object.
+    * Please note that a Scanner object has already been instantiated within the com.booking.Start class for input purposes. Therefore, please DO NOT CREATE a new object for input; you can utilize the existing Scanner object.
     * Please ensure that your input and output precisely match the given problem statement, and refrain from printing any additional information.
 
 ### 1. **Dependency Management**:
@@ -10,8 +10,8 @@
     * The project already has the JUnit testing library installed as a dependency.
 
 ### 2. **Starting Point**:
-    * Inside the project, you will find a class called Start which contains the main method.
-    * The Start class serves as the entry point for the project. You can start the execution of the project from this class.
+    * Inside the project, you will find a class called com.booking.Start which contains the main method.
+    * The com.booking.Start class serves as the entry point for the project. You can start the execution of the project from this class.
 
 ### 3. **Writing Problem Statement Name in problem-statement.json file**:
     * There is a file present inside the root folder of the pom.xml with name problem-statement.json

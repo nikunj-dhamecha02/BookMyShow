@@ -1,3 +1,5 @@
+package com.booking;
+
 enum SeatType {
   PLATINUM(320),
   GOLD(280),
