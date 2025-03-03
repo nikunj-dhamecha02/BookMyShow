@@ -35,11 +35,15 @@ public class Auditorium {
   }
 
   public List<Seat> bookSeats(List<Seat> selectedSeats) throws Exception {
-    if (selectedSeats.stream().allMatch(Seat::isAvailable)) {
-      selectedSeats.forEach(Seat::book);
-      return selectedSeats;
+    for (Seat seat : selectedSeats) {
+      if (seat.isAvailable()) {
+        seat.book();
+      } else {
+        throw new Exception(
+            "Seat " + seat.getSeatNumber() + " is not available, Please select different Seats");
+      }
     }
-    throw new Exception("Can't book the already booked Seats");
+    return selectedSeats;
   }
 }
 
