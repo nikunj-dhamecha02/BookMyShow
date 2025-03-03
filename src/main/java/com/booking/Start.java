@@ -55,6 +55,7 @@ public class Start {
         }
       }
     }
+    BillingService.getInstance().getTotalSales();
   }
 
   public static List<Seat> generateSeats(int platSeats, int goldSeats, int silverSeats) {
